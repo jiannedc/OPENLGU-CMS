@@ -1,0 +1,715 @@
+<?php /* @var $this Controller */ ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
+	<![endif]-->
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/foundation/css/normalize.css">
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/foundation/css/foundation.css">
+	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom.css">
+    
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/Icons/Flaticon_WebFont/flaticon.css">
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/Icons/Flaticon_WebFont2/flaticon.css">
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/Icons/Flaticon/flaticon.css">
+    
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+    
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/css/foundation/js/vendor/modernizr.js"></script>
+    
+	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+</head>
+  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="custom.css">
+
+
+</head>
+<body>
+
+	<nav class="container-topbar">
+		<div class="row">
+			<div class="small-12 large-12 columns">
+			<nav class="top-bar nomargin" data-topbar>
+				<ul class="title-area">
+					<li class="name">
+						<h1><a href="#"></a></h1>
+					</li>
+					<li class="toggle-topbar"><a href="#"></a></li>
+				</ul>
+			<section class="top-bar-section">
+			
+			<!-- Left Nav Section -->
+			<ul class="left">
+				<li class="divider hide-for-small"></li>
+				<li><a href="#">Home</a></li>
+				<li class="divider hide-for-small"></li>
+				<li><a href="#">Transparency</a></li>
+				<li class="divider hide-for-small"></li>
+				<li class="has-dropdown"><a href="#">Products and Services</a>
+					<ul class="dropdown">
+						<li class="has-dropdown"><a href="#">Products</a>
+							<ul class="dropdown">
+								<li><a href="#">Product 1</a></li>
+								<li><a href="#">Product 2</a></li>
+								<li><a href="#">Product 3</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a href="#">Services</a>
+							<ul class="dropdown">
+								<li><a href="#">Services 1</a></li>
+								<li><a href="#">Services 2</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="divider hide-for-small"></li>
+			</ul>
+			
+			<!-- Right Nav Section -->
+			<ul class="right">
+				<li class="divider hide-for-small hide-for-medium"></li>				
+				<li><a href="#">Contact Us</a></li>
+				<li class="divider hide-for-medium hide-for-small"></li>
+				<li class="search">
+					<form role="search" method="get" action="">
+						<input type="search" class="search-field" placeholder="Search …" value="" title="Search for:">
+					</form>
+				</li>
+				<li class="divider hide-for-medium hide-for-small"></li>
+			</ul>
+			
+			</section>
+			</nav>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-masthead">
+	<div class="row">
+		<header class="small-12 large-12 columns">
+			<div class="clearfix">
+				<div class="left container-logo"><a href="#"><img class="agency-logo" src="images/logo-masthead.png"/></a></div>
+				<div class="left container-name">
+					<div class="republic">REPUBLIC OF THE PHILIPPINES</div>
+					<div class="agency-name">Official Website of the City of Calamba</div>
+					<div class="tagline">The Premier City of Growth, of Leisure and of National Pride</div>
+				</div>
+			</div>			
+		</header>
+	</div>
+	</div>
+	
+	<div class="container-banner">
+		<div class="row">
+			<div class="small-12 large-12 columns">
+				<div class="orbit-wrapper">
+				<ul data-orbit
+					data-options="animation:slide;
+								  animation_speed:1000;
+								  pause_on_hover:true;
+								  animation_speed:500;
+								  navigation_arrows:true;
+								  bullets:false;">
+				<li>
+					<img width="100%" src="images/orbit/image1.jpg" alt="slide 1" />
+					<div class="orbit-caption">
+					  Caption One.
+					</div>
+				 </li>
+				 <li>
+					<img width="100%" src="images/orbit/image2.jpg" alt="slide 2" />
+					<div class="orbit-caption">
+					  Caption Two.
+					</div>
+				  </li>
+				  <li>
+					<img width="100%" src="images/orbit/image3.jpg" alt="slide 3" />
+					<div class="orbit-caption">
+					  Caption Three.
+					</div>
+				  </li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<nav class="container-topbar">
+		<div class="row">
+			<div class="small-12 large-12 columns">
+			<nav class="top-bar nomargin" data-topbar>
+				<ul class="title-area">
+					<li class="name"></li>
+					<li class="toggle-topbar"><a href="#"></a></li>
+				</ul>
+			<section class="top-bar-section">
+			
+			<!-- Left Nav Section -->
+			<ul class="left">
+				<li class="divider hide-for-small"></li>
+				<li class="has-dropdown"><a href="#">For Residents</a>
+					<ul class="dropdown">
+						<li><a href="#">Services</a></li>
+						<li class="has-dropdown"><a href="#">About LGU</a>
+							<ul class="dropdown">
+								<li><a href="#">History</a></li>
+								<li><a href="#">Mission & Vission</a></li>
+								<li><a href="#">Local Officials</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Directory</a></li>
+					</ul>
+				</li>
+				<li class="divider hide-for-small"></li>
+				<li class="has-dropdown"><a href="#">For Visitors</a>
+						<ul class="dropdown">
+						<li><a href="#">Local Heritage</a></li>
+						<li><a href="#">Map & Location</a></li>
+						<li><a href="#">Directory</a></li>
+						<li><a href="#">News & Events</a></li>
+						<li class="has-dropdown"><a href="#">Tourist Information</a>
+							<ul class="dropdown">
+								<li><a href="#">Local Attraction</a></li>
+								<li><a href="#">Festivals</a></li>
+								<li><a href="#">Accomodation</a></li>
+							</ul>
+						</li>
+						<li class="has-dropdown"><a href="#">Travel Information</a>
+							<ul class="dropdown">
+								<li><a href="#">How To Get Here</a></li>
+								<li><a href="#">Moving Around</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="divider hide-for-small"></li>
+				<li class="has-dropdown"><a href="#">For Businesses</a>
+					<ul class="dropdown">
+					<li><a href="#">First link in dropdown</a></li>
+					</ul>
+				</li>
+				<li class="divider hide-for-small"></li>
+			</ul>			
+			</section>
+			</nav>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container-breadcrumbs">
+		<div class="row">
+		<div class="small-12 large-12 columns">
+			<ul class="breadcrumbs">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Link1</a></li>
+				<li><a href="#">Link2</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+
+	<div class="container-main">
+    <div id="main" class="row">
+		<div class="small-12 medium-8 large-8 columns">
+			<div class="row">
+			<div class="small-12 medium-12 large-12 columns">
+			<article class="home-welcome">
+			<header class="home-header">
+				<h3 class="home-title"><a href="#">WELCOME TO LGU_NAME WEBSITE!</a></h3>
+				<div class="home-meta">This is a caption or tagline</div>
+			</header>	
+			<div class="home-preview"><p>
+				This is a short description or history about the LGU. Sample text: "LGU_NAME is a the capital of the Province of Province Name. It is known as the ____ Capital of the Philippines. This may also contain welcoming message by the city Mayor. By clicking the the link "Know More..." it will bring you to the About the LGU page.
+				<a href="#" class="read-more">Know More…</a>
+			</p>
+			</div>
+			</article>
+			</div>
+			</div>
+			<div class="row">
+			<div class="small-12 medium-12 large-12 columns">
+			<section class="home-orbit">	
+				<ul class="orbit-wrapper" data-orbit
+					data-options="animation:slide;
+					animation_speed:500;
+					pause_on_hover:true;
+					animation_speed:500;
+					resume_on_mouseout: true;
+					navigation_arrows:true;
+					bullets:false;
+					swipe: true;">
+				<li>
+					<div class="orbit-content">
+						<img src="images/Philippines-Tree-Record-Header.jpg" alt="slide 1" />
+						<div class="orbit-text">
+							<header>Headline 1</header>
+							<span class="caption">Mirum est notare quam littera gothica, quam nunc putamus parum claram, per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="orbit-content">
+						<img src="images/yolanda-tacloban.jpg" alt="slide 2" />
+						<div class="orbit-text">
+							<header>Yolanda Relief Program</header>
+							<span class="caption">Eodem modo typi, qui nunc nobis videntur parum clari</span>
+						</div>
+					</div>
+				</li>
+				</ul>
+			</section>			
+			
+			</div>
+			</div>
+			<div class="row">
+			<div class="small-12 medium-12 large-12 columns">
+			<div class="tabs-container">
+			<dl class="tabs" data-tab>
+				<dd class="active"><a href="#panel2-1">LATEST NEWS</a></dd>
+				<dd><a href="#panel2-2">LATEST PUBLICATIONS</a></dd>
+			</dl>
+			<div class="tabs-content">
+				<div class="content active" id="panel2-1">
+					<ul class="article-list">
+						<li>
+						<article class="entry-block">
+						<header class="entry-header">
+							<h3 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h3>
+							<div class="entry-meta">Published on <a href="#">November 29, 2013</a></div>
+						</header>
+						<div class="row">
+						<div class="small-12 medium-12 large-4 columns">
+						<img class="entry-image" src="images/earth.jpg">
+						</div>
+						<div class="small-12 medium-12 large-8 columns">
+						<div class="entry-preview"><p>
+						 Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						 humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						<a href="#" class="read-more">Read more…</a>
+						</p>
+						</div>
+						</div>
+						</div>
+						<footer class="entry-meta">
+							<span>
+							</span>
+						</footer>
+						</article>
+						</li>
+						<li>
+						<article class="entry-block">
+						<header class="entry-header">
+							<h3 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h3>
+							<div class="entry-meta">Published on <a href="#">November 29, 2013</a></div>
+						</header>
+						<div class="row">
+						<div class="small-12 medium-12 large-4 columns">
+						<img class="entry-image" src="images/earth.jpg">
+						</div>
+						<div class="small-12 medium-12 large-8 columns">						
+						<div class="entry-preview"><p>
+						 Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						 humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						<a href="#" class="read-more">Read more…</a>
+						</p>
+						</div>
+						</div>
+						</div>
+						<footer class="entry-meta">
+							<span>
+							</span>
+						</footer>
+						</article>
+						</li>
+					</ul>
+					<footer class="tab-meta">
+						<a href="#">View All News >></a>
+					</footer>
+				</div>
+				<div class="content" id="panel2-2">
+					<ul class="article-list">
+						<li>
+						<article class="entry-block">
+						<header class="entry-header">
+							<h3 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h3>
+							<div class="entry-meta">Published on <a href="#">November 29, 2013</a></div>
+						</header>				
+						<div class="entry-preview"><p>
+						 Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						 humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						<a href="#" class="read-more">Read more…</a>
+						</p>
+						</div>
+						<footer class="entry-meta">
+							<span>
+							</span>
+						</footer>
+						</article>
+						</li>
+						<li>
+						<article class="entry-block">
+						<header class="entry-header">
+							<h3 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h3>
+							<div class="entry-meta">Published on <a href="#">November 29, 2013</a></div>
+						</header>				
+						<div class="entry-preview">
+						<p>
+						 Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						 humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						<a href="#" class="read-more">Read more…</a>
+						</p>
+						</div>
+						<footer class="entry-meta">
+							<span>
+							</span>
+						</footer>
+						</article>
+						</li>
+					</ul>					
+					<footer class="tab-meta">
+						<a href="#">View All Publications >></a>
+					</footer>
+				</div>
+			</div>
+			</div>
+			</div>
+			</div>			
+			<div class="row">
+				<div class="small-12 medium-12 large-12 columns">
+				<section class="home-gallery">
+				<header>
+					Gallery
+				</header>
+				<ul class="medium-block-grid-2 large-block-grid-4">
+				<li><a class="th" href="#">
+					<img src="images/earth.jpg">
+				</a></li>
+				<li><a class="th" href="#">
+					<img src="images/earth.jpg">
+				</a></li>
+				<li><a class="th" href="#">
+					<img src="images/earth.jpg">
+				</a></li>
+				<li><a class="th" href="#">
+					<img src="images/earth.jpg">
+				</a></li>
+				</ul>
+				</section>
+				</div>	
+			</div>
+			<div class="row">
+			<div class="small-12 medium-12 large-6 columns">
+			<section class="section">
+				<header class="section-header">
+					<h3 class="section-title"><a href="#">FEATURED VIDEO</a></h3>
+				</header>				
+				<div class="section-content">
+					<div class="flex-video">
+					<!--iframe width="420" height="315" src="http://www.youtube.com/embed/_Jf2Y81OlpU?rel=0" frameborder="0" allowfullscreen></iframe-->
+					</div>
+				</div>
+				<footer class="section-meta">
+				</footer>
+			</section>
+			<section class="panel">
+				<header class="section-header">
+					<h3 class="section-title"><a href="#">QUOTE OF THE DAY</a></h3>
+				</header>				
+				<div class="section-content">
+					<p class="quote">"The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself."</p>
+					<div class="author">- Mark Caine</div>
+				</div>
+				<footer class="section-meta">
+				</footer>
+			</section>
+			</div>
+			<div class="small-12 medium-12 large-6 columns">
+			<section class="section">
+				<header class="section-header">
+					<h3 class="section-title"><a href="#">EVENTS</a></h3>
+				</header>				
+				<div class="section-content">
+				<ul class="orbit-wrapper" data-orbit 
+					data-options="animation:slide;
+						animation_speed:200;
+						pause_on_hover:true;
+						animation_speed:200;
+						resume_on_mouseout: true;
+						swipe: true;
+						navigation_arrows:false;
+						slide_number:false;
+						variable_height:true;">
+					<li>
+						<div class="orbit-image">
+							<img src="images/orbit/IMAGE-2.jpg" />
+						</div>
+					</li>
+					<li>
+						<div class="orbit-image">
+							<img src="images/orbit/IMAGE-1.jpg" />
+							<div class="caption">
+								<header>Pinagbengan Festival</header>
+								<div class="meta">
+								February 22-25, 2014
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="orbit-text">
+							<header>MEDICAL & DENTAL MISSION</header>
+							<div class="caption">Libreng Check-Up at Pabunot</div>							
+							<div class="meta">
+								February 22, 2014
+								<br />
+								Barangay Health Center
+							</div>
+						</div>
+					</li>
+				</ul>
+				</div>
+				<footer class="section-meta">
+				</footer>
+			</section>
+			</div>
+			</div>
+				
+		</div>		
+		<aside class="small-12 medium-4 large-4 columns">
+			<section id="container-seal" class="container-side">
+				<div class="container-side-body">
+					<a href="#"><img class="transparency-seal"alt="transparency-seal" src="images/gov/transparency-seal-1.png"></a>				
+				</div>
+			</section>
+			<section id="container-services" class="container-side">
+				<header class="container-side-header medium-icon">
+					<a><span class="valign flaticon-users6"></span>SERVICES</a>
+				</header>
+				<div class="container-side-body">
+					<table width="100%">
+						<tbody>
+						<tr>
+							<td class="tiles"><a title="CIVIL REGISTRY"><span class="valign flaticon-big57"></span></a><div class="caption">CIVIL REGISTRY</div></td>
+							<td class="tiles"><a title="PERMITS & LICENSES"><span class="valign flaticon-signature2"></span></a><div class="caption">PERMITS & LICENSES</div></td>
+							<td class="tiles"><a title="BUSINESS & INVESTMENT"><span class="valign flaticon-briefcase2"></span></a><div class="caption">BUSINESS & INVESTMENT</div></td>	
+						</tr>
+						<tr>
+							<td class="tiles"><a title="ARCHIVES"><span class="valign flaticon-file3"></span></a><div class="caption">ARCHIVES</div></td>													
+							<td class="tiles"><a title="PUBLIC EMPLOYMENT"><span class="valign flaticon-teacher"></a></span><div class="caption">PUBLIC EMPLOYMENT</div></td>
+							<td class="tiles"><a title="HEALTH & WELFARE"><span class="valign flaticon-family5"></a></span><div class="caption">HEALTH & WELFARE</div></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<section id="container-announcement" class="container-side">
+				<header class="container-side-header medium-icon">
+					<a><span class="valign flaticon-lecture1"></span>ANNOUNCEMENT</a>
+				</header>
+				<div class="container-side-body">
+					<ul>
+						<li>						
+						<article>
+							<header><a class="read-more"> Announcement Title</a></header>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod consectetuer adipiscing elit <a class="read-more"> Read More...</a></p>							
+						</article>
+						</li>
+						<li><article>
+							<header><a class="read-more"> Announcement Title2</a></header>
+							<p> sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<a class="read-more"> Read More...</a></p>
+						</article>
+						</li>
+						<li>						
+						<article>
+							<header><a class="read-more"> Announcement Title</a></header>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit<a class="read-more"> Read More...</a></p>
+						</article>
+						</li>
+						<li><article>
+							<header><a class="read-more"> Announcement Title2</a></header>
+							<p> sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<a class="read-more"> Read More...</a></p>
+						</article>
+						</li>
+						<li><article>
+							<header><a class="read-more"> Announcement Title2</a></header>
+							<p> sed diam nonummy nibh <a class="read-more"> Read More...</a></p>
+						</article>
+						</li>
+					</ul>
+				</div>				
+			</section>
+			<section id="container-hotlines" class="container-side">
+				<header class="container-side-header medium-icon">	
+					<a><span class="valign flaticon-phone25"></span>HOTLINES</a>
+				</header>
+				<div class="container-side-body">
+					<ul class="small-icon block">
+						<li><span class="flaticon-police18 valign"></span>Police Station: 09328504862</li>
+						<li><span class="flaticon-flames valign"></span>Fire Station: 09328504862</li>
+						<li><span class="flaticon-hospital1 valign"></span>Hospital: 09328504862</li>
+						<li><span class="flaticon-school1 valign"></span>Traffic Accidents: 09328504862</li>
+						<li><span class="flaticon-weather16 valign"></span>Disaster: 09328504862</li>		
+					</ul>
+				</div>				
+			</section>
+		</aside>
+		</div>
+	</div>
+	<div class="container-footer">
+	<div class="row">
+    <div class="large-3 columns widget-area">
+		<div class="social-media section">
+			<header>Social Media</header>
+			<div class="body small-icon">
+			<a href="#" target="_blank"> <span class="flaticon-facebook24 valign"></span>Like us on Facebook</a><br />
+			<a href="#" target="_blank"> <span class="flaticon-social19 valign"></span>Follow us on Twitter</a>
+			</div>
+		</div>
+		<div class="visit-us section">
+			<header>Visit Us</header>
+			<div class="body">City Government of Zamboanga<br />
+			City Hall<br />
+			N.S. Valderroza Street<br />
+			7000 Zamboanga City <br />
+			</div>
+		</div>
+	</div>
+	<div class="large-3 columns widget-area ">	
+		<div class="contact-us section">
+			<header>Contact Us</header>
+			<div class="body small-icon">
+			<span class="valign flaticon-phone25"></span>Contact No.: (062) 991-4526 <br />
+			<span class="valign flaticon-office"></span>Fax Number: (062) 991-1889<br />
+			<span class="valign flaticon-email29"></span>Email: mayor@zamboanga.gov.ph
+			</div>
+		</div>
+		<div class="contact-us section">
+			<header>Account Access</header>
+			<div class="body small-icon">
+			<a><span class="valign flaticon-people15"></span>Log in User Account<br /></a>
+			<a><span class="valign flaticon-draw12"></span>Sign Up<br /></a>
+			</div>
+		</div>
+	</div>
+    <div class="large-6 columns widget-area">
+		<div class="disclaimer">
+			<div>
+			<img class="lgu-seal-footer" src="images/seal.png" width="150" height="150">
+			<p class="text-center">The City of XXX shall not be responsible for any errors or omissions contained 
+in this site. It reserves the right to make changes without notice. Accordingly, all information is provided "as is". It provides no warranty, either express or 
+implied, as to  the accuracy, reliability, or completeness of furnished data. If you find any errors or omissions, we encourage you to report them to the webmaster.</p>
+			</div>
+		</div>
+		<div class="copyright">
+			<p class="text-center"><strong>Copyright © City of XXXX, 2014</strong></p>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="container-footer-govph">
+	<div class="row">
+	<div class="clearfix">
+	<div class="small-12 large-4 large-offset-2 columns right widget-area">
+		<article class="widget">
+		<div class="footer-section">
+			<div>
+			<img class="seal-mono" src="images/govph-seal-top-bar.png" alt="Seal of the Republic of the Philippines - Monochromatic" title="Seal of the Republic of the Philippines - Monochromatic" width="280" height="280">
+			<p style="text-align:center;">All content is public domain unless otherwise stated.</p>
+			</div>
+		</div>
+		</article>
+	</div>
+	
+	<div class="small-12 large-6 columns left">
+	<div class="small-12 large-6 columns widget-area">
+	<article class="widget">
+	<div class="footer-section">
+	<h6><strong>Republic of the Philippines</strong></h6>
+	<div class="menu-national-government-portal-container">
+		<ul id="menu-national-government-portal" class="menu">
+			<li><a href="http://www.gov.ph/">Official Gazette</a></li>
+			<li><a href="http://president.gov.ph/">Office of the President</a></li>
+			<li><a href="http://www.gov.ph/directory/">Official Directory</a></li>
+			<li><a href="http://www.gov.ph/calendar/">Official Calendar</a></li>
+		</ul>
+	</div>
+	</div>
+	</article>
+	<article class="widget">
+		<div class="footer-section">
+		<h6><strong>Resources</strong></h6>
+		<div class="menu-links-resources-container">
+			<ul id="menu-links-resources" class="menu">
+				<li><a href="http://noah.dost.gov.ph/">Project NOAH</a></li>
+			</ul>
+		</div>
+		</div>
+	</article>
+	</div>
+
+	<div class="small-12 large-6 columns widget-area">
+    <article class="widget widget_nav_menu">
+		<div class="footer-section">
+			<h6><strong>Executive</strong></h6>
+			<div class="menu-links-executive-container">
+				<ul id="menu-links-executive" class="menu">
+					<li><a href="http://www.president.gov.ph/">Office of the President</a></li>
+					<li><a href="http://www.ovp.gov.ph/">Office of the Vice President</a></li>
+					<li><a href="http://www.deped.gov.ph/">Department of Education</a></li>
+					<li><a href="http://www.dilg.gov.ph/">Department of Interior and Local Government</a></li>
+					<li><a href="http://www.dof.gov.ph/">Department of Finance</a></li>
+					<li><a href="http://www.doh.gov.ph/">Department of Health</a></li>
+					<li><a href="http://www.dost.gov.ph/">Department of Science and Technology</a></li>
+					<li><a href="http://www.dti.gov.ph/">Department of Trade and Industry</a></li>
+				</ul>
+			</div>
+		</div>
+	</article>
+	<article class="widget widget_nav_menu">
+		<div class="footer-section">
+			<h6><strong>Legislative</strong></h6>
+			<div class="menu-links-legislative-container">
+				<ul id="menu-links-legislative" class="menu">
+					<li><a href="http://www.senate.gov.ph/">Senate of the Philippines</a></li>
+					<li><a href="http://www.congress.gov.ph/">House of Representatives</a></li>
+				</ul>
+			</div>
+		</div>
+	</article>
+	<article class="widget widget_nav_menu">
+		<div class="footer-section">
+			<h6><strong>Judiciary</strong></h6>
+			<div class="menu-links-judiciary-container">
+				<ul id="menu-links-judiciary" class="menu">
+					<li><a href="http://sc.judiciary.gov.ph/">Supreme Court</a></li>
+					<li><a href="http://ca.judiciary.gov.ph/">Court of Appeals</a></li>
+					<li><a href="http://sb.judiciary.gov.ph/">Sandiganbayan</a></li>
+					<li><a href="http://cta.judiciary.gov.ph/">Court of Tax Appeals</a></li>
+					<li><a href="http://jbc.judiciary.gov.ph/">Judicial Bar and Council</a></li>
+				</ul>
+			</div>
+		</div>
+	</article>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+#left_pane{
+	width:165px;
+	padding-left:15px;
+}
+#right_pane{
+	padding:10px 20px;
+	padding-left:0px;
+	overflow:auto;
+}
+#right_pane_content{
+	width:1180px;
+}
+#top_pane{
+	width:100%;
+	height:71px;
+}
+#CMS_title{
+	padding:8px 20px 0px 50px;
+}
+#footer
+{
+	font-size: 9pt;
+	margin-top:20px
+}
+.inner_pane{
+	padding:10px;
+}
+.inner_right{
+	width:100px;
+	padding-left:15px;
+	display:block;
+}
+.inner_left{
+
+}
+
+[class^=icon26-],
+[class*=" icon26-"],
+.icon26-base{
+  display: inline-block;
+  *margin-right: .3em;
+  vertical-align: text-top;
+  height: 26px;
+  width: 26px;
+  line-height: 26px;
+}
+[class^=icon32-],
+[class*=" icon32-"],
+.icon32-base{
+  display: inline-block;
+  margin:auto;
+  vertical-align: text-top;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+}
+[class^=icon48-],
+[class*=" icon48-"],
+.icon48-base{
+  display: inline-block;
+  *margin-right: .3em;
+  vertical-align: text-top;
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+}
+.icon48-home{
+	background: url("UI/Icons/48/home-48.png") no-repeat;			
+}
+.icon48-article{
+	background: url("UI/Icons/48/edit_property-48.png") no-repeat;			
+}
+.icon48-article2{
+	background: url("UI/Icons/48/news-48.png") no-repeat;			
+}
+.icon48-user{
+	background: url("UI/Icons/48/group-48.png") no-repeat;			
+}
+.icon48-template{
+	background: url("UI/Icons/48/left_navigation_toolbar-48.png") no-repeat;			
+}
+.icon48-file{
+	background: url("UI/Icons/48/pdf-48.png") no-repeat;			
+}
+.icon48-feature{
+	background: url("UI/Icons/48/very_popular_topic-48.png") no-repeat;			
+}
+.icon48-menu{
+	background: url("UI/Icons/48/bill-48.png") no-repeat;			
+}
+.icon48-business{
+	background: url("UI/Icons/48/shop-48.png") no-repeat;			
+}
+.icon48-visitor{
+	background: url("UI/Icons/48/user-48.png") no-repeat;			
+}
+.icon48-resident{
+	background: url("UI/Icons/48/conference-48.png") no-repeat;			
+}
+.icon32-home{
+	background: url("UI/Icons/32/home-32.png") no-repeat;			
+}
+.icon32-article{
+	background: url("UI/Icons/32/edit_property-32.png") no-repeat;			
+}
+.icon32-article2{
+	background: url("UI/Icons/32/news-32.png") no-repeat;			
+}
+.icon32-user{
+	background: url("UI/Icons/32/group-32.png") no-repeat;			
+}
+.icon32-template{
+	background: url("UI/Icons/32/left_navigation_toolbar-32.png") no-repeat;			
+}
+.icon32-file{
+	background: url("UI/Icons/32/pdf-32.png") no-repeat;			
+}
+.icon32-feature{
+	background: url("UI/Icons/32/very_popular_topic-32.png") no-repeat;			
+}
+.icon32-menu{
+	background: url("UI/Icons/32/bill-32.png") no-repeat;			
+}
+.icon32-business{
+	background: url("UI/Icons/32/shop-32.png") no-repeat;			
+}
+.icon32-visitor{
+	background: url("UI/Icons/32/user-32.png") no-repeat;			
+}
+.icon32-resident{
+	background: url("UI/Icons/32/conference-32.png") no-repeat;			
+}
+.icon26-home{
+	background: url("UI/Icons/26/home-26.png") no-repeat;			
+}
+.icon26-article{
+	background: url("UI/Icons/26/edit_property-26.png") no-repeat;			
+}
+.icon26-article2{
+	background: url("UI/Icons/26/news-26.png") no-repeat;			
+}
+.icon26-user{
+	background: url("UI/Icons/26/group-26.png") no-repeat;			
+}
+.icon26-template{
+	background: url("UI/Icons/26/left_navigation_toolbar-26.png") no-repeat;			
+}
+.icon26-file{
+	background: url("UI/Icons/26/pdf-26.png") no-repeat;			
+}
+.icon26-feature{
+	background: url("UI/Icons/26/very_popular_topic-26.png") no-repeat;			
+}
+.icon26-menu{
+	background: url("UI/Icons/26/bill-26.png") no-repeat;			
+}
+.icon26-business{
+	background: url("UI/Icons/26/shop-26.png") no-repeat;			
+}
+.icon26-visitor{
+	background: url("UI/Icons/26/user-26.png") no-repeat;			
+}
+.icon26-resident{
+	background: url("UI/Icons/26/conference-26.png") no-repeat;			
+}
+
+.metro .tile .tile-status .label{
+	color:#2F2F2F;
+}
+.metro .tile-group .tile-group-title{
+	color:#2F2F2F;
+}
